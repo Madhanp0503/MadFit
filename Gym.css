@@ -1,0 +1,95 @@
+    *{
+        font-family: 'Signika Negative', sans-serif;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('abs-1850926_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: 3000px;
+        height: auto;
+    }
+    .left{
+        color: white;
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 50px;
+        top: 22px;
+    }
+    .left img{
+        width: 55px;
+    }
+    .mid{
+        display: block;
+        width: 45%;
+        margin: 22px auto;
+        /* border: 2px solid red; */
+    }
+    .right{
+        color: white;
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    button{
+        background-color: #00000000;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        border: 2px solid white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: gray;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 30px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        color: gray;
+        text-decoration: underline;
+        padding: 30px;
+    }
+    #tag{
+        text-align: center;
+    }
+    .container{
+        color: white;
+        text-align: center;
+        border: 2px solid white;
+        margin: 100px;
+        padding: 30px 10px 50px 10px;
+        width: 35%;
+        border-radius: 20px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .formgrp input{
+        text-align: center;
+        display: block;
+        border: 3px solid black;
+        padding: 6px;
+        margin: 3px auto;
+        width: 60%;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .formgrp button{
+        margin: 3px;
+        width: 30%;
+        font-size: 20px;
+    }
